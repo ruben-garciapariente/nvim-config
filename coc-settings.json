@@ -1,0 +1,12 @@
+{
+"codeLens.enable": true,
+"java.referencesCodeLens.enabled": true,
+"java.jdt.ls.vmargs": "-javaagent:c:/m2/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar",
+"java.configuration.runtimes": [
+  {
+    "name": "JavaSE-11",
+    "path": "/Users/n129586/Aplicaciones/jdk-11.0.11",
+    "default": true
+  }
+]
+}
