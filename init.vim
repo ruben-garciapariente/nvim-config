@@ -50,6 +50,18 @@ set termguicolors
 " Diff options
 set diffopt+=iwhite
 
+" Issues keys with AltGr (spanish-keyboard)
+imap <M-Esc> [
+imap <M-C-]> ]
+imap <M-C-\> \
+imap <M-C-@> @
+imap <M-C-#> #
+map! <M-Esc> [
+map! <M-C-]> ]
+map! <M-C-\> \
+map! <M-C-@> @
+map! <M-C-#> #
+
 " SQLLite, necessary for Telescope frecency
 let g:sqlite_clib_path = "C:\\Users\\n129586\\AppData\\Local\\nvim-data\\sqlite\\sqlite3.dll"
 
@@ -84,7 +96,8 @@ augroup end
 " Añadir dap
 " Añadir otros jar
 " Revisar warning dynamicRegistration
-" Tecla ]
 " Arreglar curl (añadir certificados)
+" Problema con warning next
+" Revisar lombok
 
 

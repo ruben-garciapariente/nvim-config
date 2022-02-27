@@ -84,10 +84,6 @@ function M.setup()
         flags = {
             allow_incremental_sync = true,
         };
-        --Revisar para que sirve
-        --handlers = {
-            --["textDocument/publishDiagnostics"] = lsp_diag.publishDiagnostics,
-        --};
         capabilities = capabilities,
     }
 
