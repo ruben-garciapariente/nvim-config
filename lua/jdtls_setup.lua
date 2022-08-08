@@ -96,7 +96,7 @@ function M.setup()
       'c:/Users/n129586/Aplicaciones/jdk-11.0.11/bin/java',
       '-Declipse.application=org.eclipse.jdt.ls.core.id1',
       '-Dosgi.bundles.defaultStartLevel=4',
-      '-javaagent:C:/Users/n129586/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar',
+      '-javaagent:C:/m2/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar',
       --'-Xbootclasspath/a:C:/Users/n129586/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar',
       '-Declipse.product=org.eclipse.jdt.ls.core.product',
       '-Dlog.protocol=true',
